@@ -1,14 +1,11 @@
 import riskfolio as rp
 
+# Building the portfolio object
 
-asset_classes = pd.read_csv("asset_bateleur30.csv")
+port = rp.Portfolio(returns=Y[assets])
+# Calculating optimal portfolio
 
-asset_classes = pd.DataFrame(asset_classes)
-asset_classes = asset_classes.sort_values(by=['Assets'])
-asset_classes.reset_index(inplace=True, drop=True)
+# Select method and estimate input parameters:
 
-# Risk contribution constraints vector based on Industry Class
-b = rp.risk_constraint(asset_classes,
-                       kind='classes',
-                       classes_col='Industry')
-print(b)
+method_mu='hist' # Method to estimate expected returns based on historical data.
+method_cov='hist' # Method to estimate covariance matrix based on historical data.
