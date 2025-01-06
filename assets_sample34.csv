@@ -8,7 +8,6 @@ AFE.JO,Chemicals
 AVI.JO,Food Producers
 BVT.JO,Financial Services
 MPT.JO,General Industrials
-PMR.JO,Food Producers
 RNI.JO,Electronic and Electrical Equipment
 REM.JO,Investment Banking and Brokerage Services
 NTC.JO,Health Care Providers
@@ -18,19 +17,14 @@ SHP.JO,Personal Care Drug and Grocery Stores
 BID.JO,Personal Care Drug and Grocery Stores 
 KIO.JO,Industrial Metals and Mining
 ARI.JO,Industrial Metals and Mining
-BHG.JO,Industrial Metals and Mining
 HDC.JO,Industrial Support Services 
 MRP.JO,Retailers
 TRU.JO,Retailers
 NPN.JO,Software and Computer Services
-NPH.JO,Precious Metals and Mining
 CMH.JO,Retailers
 PRX.JO,Software and Computer Services
 BTI.JO,Tobacco
 AIP.JO,Pharmaceuticals and Biotechnology
 ITE.JO,Retailers
 SUI.JO,Travel and Leisure
-CFR.JO,Personal Goods
 MTN.JO,Telecommunications Service Providers
-TLT,Treasury Bonds
-EMBMXXN.MX, Emerging Market Bonds
